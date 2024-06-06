@@ -118,6 +118,14 @@ Using the top_100_preprocessed_data/result.csv file as the dataset to train and 
 1. Stocks with > 13% expected return: 20% of the portfolio.
 2. Remaining stocks: average allocation.
 
+## Backtesting
+
+Integrate the ML model and allocation strategy into the original quantx trading engine backtest system
+
+## Contribution
+
+The QStar model utilizing machine learning algorithms (XGBoost, LGBM) to identify outperforming equities and rebalance the fund allocation within the QuantX portfolio, increasing return by 2.32% and lowering drawdown by 3.72%.
+
 ## Explainable AI (XAI)
 
 [InterpretML](https://github.com/interpretml/interpret?source=post_page-----7c7c37ae30f7--------------------------------')
